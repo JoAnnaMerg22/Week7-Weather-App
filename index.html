@@ -16,39 +16,48 @@
   </head>
   <body>
     <div class="container">
-      <div class="weather-app">
-        <h1>Henrietta</h1>
-        <ul>
-          <li>Tuesday 10:00 PM</li>
-          <li>Cloudy</li>
-        </ul>
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <h1>Henrietta</h1>
+          <ul>
+            <li>Tuesday 10:00 PM</li>
+            <li>Cloudy</li>
+          </ul>
 
-        <div class="row">
-          <div class="col-6">
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-              alt="cloudy"
-            />
-            24° F | -4° C
-          </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="d-flex weather-temperature">
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                  alt="cloudy"
+                />
+                <div>
+                  <strong id="temperature">12</strong
+                  ><span class="units">
+                    <span class="units">°F | °C </span>
+                  </span>
+                </div>
+              </div>
+            </div>
 
-          <div class="col-6">
-            <ul>
-              <li>Precipitation: 3%</li>
-              <li>Humidity: 83%</li>
-              <li>Wind: 7 mph</li>
-            </ul>
+            <div class="col-6">
+              <ul>
+                <li>Precipitation: 3%</li>
+                <li>Humidity: 83%</li>
+                <li>Wind: 7 mph</li>
+              </ul>
+            </div>
           </div>
         </div>
+        <small>
+          <a
+            href="https://github.com/JoAnnaMerg22/Week7VanillaAppPractice.git"
+            target="blank"
+            >Open-source code</a
+          >
+          by JoAnna Mergenthaler
+        </small>
       </div>
-      <small>
-        <a
-          href="https://github.com/JoAnnaMerg22/Week7VanillaAppPractice.git"
-          target="blank"
-          >Open-source code</a
-        >
-        by JoAnna Mergenthaler
-      </small>
     </div>
 
     <script src="src/app.js"></script>
