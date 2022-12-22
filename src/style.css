@@ -1,7 +1,22 @@
 h1 {
-  color: blue;
+  color: rgb(32, 33, 36);
+  display: block;
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  height: 22px;
+  line-height: 26px;
+  text-align: left;
 }
 
 h2 {
   color: blueviolet;
+}
+
+.weather-app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
 }
